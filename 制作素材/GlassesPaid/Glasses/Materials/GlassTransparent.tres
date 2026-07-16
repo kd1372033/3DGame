@@ -1,0 +1,11 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://wena5nj1ua2b"]
+
+[ext_resource type="Texture2D" uid="uid://l2qe386mrao3" path="res://textures/DiamondTexturedPlateGlass.png" id="1_wmtqf"]
+
+[resource]
+transparency = 1
+blend_mode = 1
+albedo_color = Color(0.47451, 0.47451, 0.47451, 0.196078)
+roughness = 0.11
+normal_scale = 16.0
+normal_texture = ExtResource("1_wmtqf")

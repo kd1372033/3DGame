@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" load_steps=3 format=3 uid="uid://1umr4htway7a"]
+
+[ext_resource type="Texture2D" uid="uid://bldpxw34a1x1o" path="res://textures/WickerBasket.png" id="1_lsgkg"]
+[ext_resource type="Texture2D" uid="uid://deft5gu6cxnw1" path="res://textures/WickerBasket-NORMAL.png" id="2_dfhm1"]
+
+[resource]
+albedo_texture = ExtResource("1_lsgkg")
+normal_enabled = true
+normal_texture = ExtResource("2_dfhm1")

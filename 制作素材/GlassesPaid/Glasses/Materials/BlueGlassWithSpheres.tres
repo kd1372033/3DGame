@@ -1,0 +1,15 @@
+[gd_resource type="StandardMaterial3D" load_steps=3 format=3 uid="uid://diyb5b0b78bon"]
+
+[ext_resource type="Texture2D" uid="uid://bumlum4l412jq" path="res://Models/textures/BlueAlphaGlassWithSpheres2.png" id="1_h64g3"]
+[ext_resource type="Texture2D" uid="uid://dkun2xjkemuc3" path="res://Models/textures/BlueAlphaGradient.png" id="1_r4cg4"]
+
+[resource]
+transparency = 1
+blend_mode = 1
+cull_mode = 1
+vertex_color_use_as_albedo = true
+vertex_color_is_srgb = true
+albedo_texture = ExtResource("1_r4cg4")
+normal_enabled = true
+normal_scale = 16.0
+normal_texture = ExtResource("1_h64g3")

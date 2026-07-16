@@ -1,0 +1,15 @@
+﻿#pragma once
+#include "../CameraBase.h"
+
+class FPSCamera : public CameraBase
+{
+public:
+	FPSCamera() { Init(); }
+	~FPSCamera()			override {}
+
+	void PostUpdate()		override;
+
+private:
+	void Init()				override;
+
+};

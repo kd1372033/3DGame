@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://bnobbd5ofwshj"]
+
+[ext_resource type="Texture2D" uid="uid://bs8pj72l0onc5" path="res://textures/WineLabel.png" id="1_m7ijs"]
+
+[resource]
+albedo_texture = ExtResource("1_m7ijs")
